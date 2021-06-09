@@ -70,7 +70,7 @@ trait ManagesStacks
     }
 
     /**
-     * Prepend content to a given stack.
+     * Append content to a given stack.
      * 
      * @param  string  $section
      * @param  string  $content
@@ -79,8 +79,8 @@ trait ManagesStacks
      */
     protected function ExtendPush($section, $content)
     {
-        if ( ! isset($this->prepends[$section])) {
-            $this->prepends[$section] = [];
+        if ( ! isset($this->push[$section])) {
+            $this->push[$section] = [];
         }
 
         if ( ! isset($this->push[$section][$this->renderCount])) {
