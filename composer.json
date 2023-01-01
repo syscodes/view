@@ -19,7 +19,7 @@
 		"syscodes/collections": "0.8.1",
 		"syscodes/contracts": "0.8.1",
 		"syscodes/filesystem": "0.8.1",
-		"syscodes/support": "^0.8.1"
+		"syscodes/support": "0.8.1"
 	},
 	"autoload": {
 		"psr-4": {
